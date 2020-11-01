@@ -18,3 +18,5 @@
 - Layout do video foi baseado no codepen do [Benjamin Pott](https://codepen.io/benjipott/pen/JELELN)
 
 https://sempreupdate.com.br/como-instalar-pacotes-tar-xz-no-linux/
+
+npm i --silenc

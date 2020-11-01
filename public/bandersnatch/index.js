@@ -15,11 +15,14 @@ async function main() {
 
     const videoPlayer = new VideoMediaPlayer({
         manifestJSON,
-        network
+        network,
+        videoComponent
     })
 
     videoPlayer.initializeCodec()
     videoComponent.inicializePlayer()
+
+    window.nextChunk = ( data ) => videoPlayer.nextChunk( data )
 }
 
 window.onload = main
